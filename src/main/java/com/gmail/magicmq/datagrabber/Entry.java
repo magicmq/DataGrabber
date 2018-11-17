@@ -1,8 +1,5 @@
 package com.gmail.magicmq.datagrabber;
 
-import com.opencsv.bean.CsvBindByName;
-
-import javax.annotation.Nullable;
 import java.text.DecimalFormat;
 
 public class Entry {
@@ -86,10 +83,13 @@ public class Entry {
                 .replace(" MIDDLE AND H S", "")
                 .replace(" JUNIOR/SENIOR HIGH", "")
                 .replace(" EARLY COLLEGE H S", "")
+                .replace(" K-12", "")
                 .replace(" H S", "")
                 .replace(" HS", "")
                 .replace(" HIGH", "")
                 .replace(" SCHOOL", "")
+                .replace(" ISD", "")
+                .replace(" CISD", "")
                 .toLowerCase();
     }
 
@@ -111,6 +111,17 @@ public class Entry {
         if (toreturn.equals("JOHNSON CITY")) toreturn = "JC";
         if (toreturn.equals("LITTLE RIVER")) toreturn = "LR";
         if (toreturn.equals("NEW BRAUNFELS")) toreturn = "NB";
+        if (toreturn.equals("RED OAK")) toreturn = "RO";
+        if (toreturn.equals("FLOWER MOUND")) toreturn = "FM";
+        if (toreturn.equals("PORT ARTHUR")) toreturn = "PA";
+        if (toreturn.equals("PORT LAVACA")) toreturn = "PL";
+        if (toreturn.equals("NORTH RICHLAND HILLS")) toreturn = "NRH";
+        if (toreturn.equals("BIG LAKE")) toreturn = "BL";
+        if (toreturn.equals("SAN ANGELO")) toreturn = "SAG";
+        if (toreturn.equals("THE WOODLANDS")) toreturn = "TW";
+        if (toreturn.equals("TROPHY CLUB")) toreturn = "TC";
+        if (toreturn.equals("WEST COLUMBIA")) toreturn = "WC";
+        if (toreturn.equals("EAGLE PASS")) toreturn = "EGP";
         
         return toreturn.toLowerCase();
     }
@@ -187,7 +198,6 @@ public class Entry {
                 (popercentage == null ? "" : popercentage);
     }
 
-    @Nullable
     private Integer sneakyParseInt(String string) {
         try {
             return Integer.parseInt(string);
@@ -196,7 +206,6 @@ public class Entry {
         }
     }
 
-    @Nullable
     private Double sneakyParseDouble(String string) {
         try {
             return Double.parseDouble(string);

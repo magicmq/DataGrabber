@@ -79,6 +79,19 @@ public class DataGrabber {
                 if (school.contains("#")) continue;
 
                 if (school.contains("_")) {
+                    //Special stuff for fort bend
+                    if (school.split("_").length > 2) {
+                        if (school.split("_")[1].equals("bend")) {
+                            String actual = school.split("_")[2];
+                            for (Entry entry : entries) {
+                                if (entry.isCharter()) continue;
+                                if (entry.getDistrict().equals("FORT BEND ISD")) {
+                                    if (entry.getSchool().contains(actual)) toadd = entry;
+                                }
+                            }
+                        }
+                    }
+
                     List<Entry> matchedcity = new ArrayList<>();
                     for (Entry entry : entries) {
                         if (entry.isCharter()) continue;

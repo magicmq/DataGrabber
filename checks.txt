@@ -2,6 +2,20 @@ Check: abilene_cooper TO cooper
 
 Check: abilene_wylie TO wylie
 
+Check: houston_davis TO davis aldine
+
+Check: houston_eisenhower TO eisenhower
+
+Check: houston_macarthur TO macarthur
+
+Check: houston_nimitz TO nimitz
+
+Check: houston_elsik TO elsik
+
+Check: houston_hastings TO hastings
+
+Check: houston_taylor TO taylor
+
 Check: altair_rice TO rice
 
 Check: amarillo_caprock TO caprock
@@ -56,9 +70,13 @@ Check: beaumont_central TO central senior
 
 Check: beaumont_ozen TO ozen
 
+Check: beaumont_west_brook TO west brook sr
+
 Check: beeville_jones TO a c jones
 
 Check: ben_bolt TO ben bolt-palito blanco
+
+Check: bl_reagan_county TO reagan county
 
 Check: boerne_champion TO boerne - samuel v champion
 
@@ -80,9 +98,11 @@ Check: buda_hays TO jack c hays
 
 Check: canyon_canyon TO canyon
 
+Check: nb_canyon TO canyon lake
+
 Check: carrollton_turner TO turner
 
-Check: carrollton_creekview TO creekview
+Check: carrollton_smith TO smith
 
 Check: ep_mountain_view TO mountain view
 
@@ -97,6 +117,8 @@ Check: sa_wagner TO karen wagner
 Check: c.c._carroll TO carroll
 
 Check: c.c._king TO king
+
+Check: c.c._london TO london
 
 Check: c.c._memorial TO veterans memorial
 
@@ -152,6 +174,8 @@ Check: denton_guyer TO guyer
 
 Check: denton_ryan TO ryan
 
+Check: egp_winn TO c c winn
+
 Check: edinburg_economedes TO economedes
 
 Check: edinburg_vela TO robert r vela
@@ -169,6 +193,28 @@ Check: ep_pebble_hills TO pebble hills
 Check: emory_rains TO rains
 
 Check: euless_trinity TO trinity
+
+Check: fort_bend_austin TO stephen f austin
+
+Check: fort_bend_bush TO george bush
+
+Check: fort_bend_clements TO clements
+
+Check: fort_bend_dulles TO dulles
+
+Check: fort_bend_elkins TO lawrence e elkins
+
+Check: fort_bend_hightower TO hightower
+
+Check: fort_bend_kempner TO kempner
+
+Check: fort_bend_marshall TO thurgood marshall
+
+Check: fort_bend_ridge_point TO willowridge
+
+Check: fort_bend_travis TO william b travis
+
+Check: fort_bend_willowridge TO willowridge
 
 Check: fw_arlington_heights TO arlington heights
 
@@ -206,6 +252,8 @@ Check: frisco_reedy TO reedy
 
 Check: frisco_wakeland TO wakeland
 
+Check: houston_north_shore TO north shore senior
+
 Check: galveston_ball TO ball
 
 Check: garland_lakeview TO lakeview centennial
@@ -218,6 +266,8 @@ Check: seguin_navarro TO navarro
 
 Check: grand_prairie TO south grand prairie
 
+Check: hart_hart TO hart
+
 Check: waco_midway TO midway
 
 Check: houston_austin TO austin
@@ -226,17 +276,25 @@ Check: houston_chavez TO chavez
 
 Check: houston_furr TO furr
 
+Check: houston_northside TO northside
+
+Check: houston_jones_futures TO jones futures academy
+
 Check: houston_kashmere TO kashmere
 
 Check: houston_king TO c e king
 
 Check: houston_lamar TO lamar
 
+Check: houston_wisdom TO wisdom
+
 Check: houston_madison TO madison
 
 Check: houston_milby TO milby
 
 Check: houston_north_forest TO north forest
+
+Check: houston_heights TO heights
 
 Check: houston_scarborough TO scarborough
 
@@ -262,6 +320,10 @@ Check: huffman_hargrave TO hargrave
 
 Check: humble_atascocita TO atascocita
 
+Check: kingwood_kingwood_park TO kingwood park
+
+Check: houston_summer_creek TO summer creek
+
 Check: hurst_bell TO bell
 
 Check: ingram_moore TO ingram tom moore
@@ -280,6 +342,8 @@ Check: justin_northwest TO northwest
 
 Check: katy_cinco_ranch TO cinco ranch
 
+Check: houston_mayde_creek TO mayde creek
+
 Check: katy_morton_ranch TO morton ranch
 
 Check: katy_seven_lakes TO seven lakes
@@ -291,6 +355,8 @@ Check: katy_tompkins TO tompkins
 Check: keller_central TO central
 
 Check: keller_fossil_ridge TO fossil ridge
+
+Check: fw_timber_creek TO timber creek
 
 Check: kerrville_tivy TO tivy
 
@@ -324,6 +390,8 @@ Check: laredo_united_south TO united south
 
 Check: leander_rouse TO rouse
 
+Check: austin_vandegrift TO vandegrift
+
 Check: carrollton_hebron TO hebron
 
 Check: lubbock_cooper TO lubbock-cooper new hope academy
@@ -338,6 +406,12 @@ Check: lubbock_roosevelt TO roosevelt
 
 Check: lucas_lovejoy TO lovejoy
 
+Check: mcallen_memorial TO memorial
+
+Check: mcallen_rowe TO rowe
+
+Check: mertzon_irion TO irion
+
 Check: mesquite_horn TO horn
 
 Check: mesquite_poteet TO poteet
@@ -350,19 +424,37 @@ Check: mission_memorial TO veterans memorial
 
 Check: nevada_community TO community
 
+Check: nb_canyon TO canyon lake
+
+Check: porter_porter TO porter
+
+Check: ector_ector TO ector
+
 Check: odessa_permian TO permian
 
 Check: palestine_westwood TO westwood
 
 Check: paris_chisum TO chisum
 
+Check: houston_dobie TO dobie
+
 Check: pasadena_rayburn TO sam rayburn
 
 Check: pearland_dawson TO glenda dawson
 
+Check: austin_connally TO john b connally
+
+Check: pflugerville_hendrickson TO hendrickson
+
+Check: alamo_psja TO psja memorial
+
+Check: pharr_valley_view TO valley view
+
 Check: plano_east TO plano east sr
 
 Check: plano_west TO plano west senior
+
+Check: quinlan_boles TO boles
 
 Check: quinlan_ford TO wh ford
 
@@ -370,9 +462,13 @@ Check: richardson_berkner TO berkner
 
 Check: richardson_pearce TO pearce
 
+Check: nrh_richland TO richland
+
 Check: richmond_foster TO foster
 
 Check: richmond_george_ranch TO george ranch
+
+Check: heath_heath TO rockwall-heath
 
 Check: rosenberg_lamar TO lamar cons
 
@@ -384,7 +480,13 @@ Check: rr_cedar_ridge TO cedar ridge
 
 Check: rr_stony_point TO stony point
 
+Check: austin_westwood TO westwood
+
+Check: fw_chisholm_trail TO chisholm trail
+
 Check: san_angelo TO san angelo state
+
+Check: sag_lake_view TO lake view
 
 Check: sa_alamo_heights TO alamo heights
 
@@ -392,11 +494,15 @@ Check: sa_cole TO robert g cole
 
 Check: sa_east_central TO east central
 
-Check: sa_harlandale TO harlandale isd stem echs-alamo colleges at pac
+Check: sa_fox_tech TO fox technical
+
+Check: sa_harlandale TO harlandale stem echs-alamo colleges at pac
 
 Check: sa_kennedy TO john f kennedy
 
 Check: sa_memorial TO veterans memorial
+
+Check: helotes_o'connor TO o'connor
 
 Check: sa_south_san TO south san antonio
 
@@ -406,19 +512,39 @@ Check: simms_bowie TO james bowie
 
 Check: southlake_carroll TO carroll senior
 
+Check: houston_dekaney TO andy dekaney
+
+Check: houston_spring_woods TO spring woods
+
+Check: houston_stratford TO stratford
+
+Check: texarkana_texas TO texas
+
 Check: texas_city TO texas city j j a e p
 
+Check: tw_college_park TO college park
+
+Check: tc_byron_nelson TO byron nelson
+
+Check: turkey_valley TO valley
+
 Check: tuscola_jim_ned TO jim ned
+
+Check: tyler_tyler TO john tyler
 
 Check: tyler_lee TO robert e lee
 
 Check: vanderbilt_industrial TO industrial
+
+Check: waco_waco TO waco
 
 Check: waco_connally TO connally
 
 Check: waco_university TO university
 
 Check: wallis_brazos TO brazos
+
+Check: stinnett_west_texas TO west texas
 
 Check: wf_city_view TO city view
 
